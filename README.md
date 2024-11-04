@@ -1,5 +1,6 @@
 # ATM Machine
 This project is aimed at helping people know thw benefits of saving, status of your saving and funding to promote and widen business.
+![ATM Machine](image.png)
 
 ## Authors
 * [Verinica Daddah Afua](https://github.com/Daddah-Veronica-Afua/ATM_Machine)
@@ -12,6 +13,20 @@ This repository contains an interactive command-line project:
   A simple ATM simulator that allows users to check
 balance, deposit, withdraw, and change their PIN.
 This project is aimed at making life simple which is not limited to some but all, believing is not for those who are privileged but we're all blessed.
+
+## Contributors
+We welcome and invite contributors to our open project to enhance and expand our codebase.
+All contributions are highly valued.
+To Contribute:
+
+* ⁠Fork this repository.
+* ⁠Make your changes.
+* ⁠Submit a pull request.
+
+We do acknowledge and recognize contributors.
+We are happy to add you to the  Authors.
+
+Thank you.
 
 ##  How to Use This Repository
 * Clone the repository to your local machine.
