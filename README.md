@@ -1,6 +1,6 @@
 # ATM Machine
-This project is aimed at helping people know thw benefits of saving, status of your saving and funding to promote and widen business.
-![ATM Machine](image.png)
+This project is aimed at helping people know the benefits of saving, status of your saving and funding to promote and widen business.
+![ATM Machine](image-3.png)
 
 ## Authors
 * [Verinica Daddah Afua](https://github.com/Daddah-Veronica-Afua/ATM_Machine)

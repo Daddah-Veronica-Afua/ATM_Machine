@@ -77,10 +77,10 @@ def Change_Pin():
         else: print("PINs do not match. Try again.") 
     else: print("Incorrect current PIN.")
 
-
+#Setting up choices for the Main Menu
 while True: 
     ATM_menu() 
-    choice = int(input("Select an option: ")) 
+    choice = int(input("Select a transaction: ")) 
     if choice == 1: 
         Check_Balance() 
     elif choice == 2: 
