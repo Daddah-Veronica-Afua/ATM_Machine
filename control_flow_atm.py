@@ -34,7 +34,7 @@ def ATM_menu():
     print("\nATM Menu:")
     print("1. Check Balance")
     print("2. Deposit Funds")
-    print("3.WithdrawalFunds")
+    print("3. WithdrawalFunds")
     print("4. Change PIN")
     print("5. Exit")
 
@@ -45,21 +45,24 @@ def Check_Balance():
 
 #Depositing funds
 def Deposit_Funds(): 
-    global Balance 
+    global Balance, total_deposit
     Deposit = float(input("Enter amount to deposit: ")) 
     if Deposit > 0: 
         Balance += Deposit 
+        total_deposit += Deposit
         print(f"GHS {Deposit:.2f} deposited. New balance is: GHS {Balance:.2f}") 
     else: print("Invalid amount. Please enter a positive number.") 
-    
+total_deposit = 0
+total_withdrawal = 0
 
 #Withdrawing funds
 def Withdraw_Funds(): 
-    global Balance 
+    global Balance, total_withdrawal 
     Withdrawal= float(input("Enter amount to withdraw: ")) 
     if Withdrawal> 0: 
         if Withdrawal<= Balance: 
             Balance -= Withdrawal
+            total_withdrawal += Withdrawal
             print(f"GHS {Withdrawal:.2f} withdrawn. New balance is: GHS {Balance:.2f}") 
         else: print("Insufficient funds. Cannot Withdrawalmore than your balance.") 
     else: print("Invalid amount. Please enter a positive number.") 
@@ -91,7 +94,7 @@ while True:
     elif choice == 4: 
         Change_Pin() 
     elif choice == 5: 
-        print("Thank you for using PresVee ATM. Goodbye") 
+        print(f'Thank you for using PresVee ATM. Here is a summary of your transactions: \nTotal amount deposited : GHS {total_deposit}. \nAmounts withdrawn : GHS {total_withdrawal}') 
         print("Goodbye!")
         break 
     else: 
